@@ -1,0 +1,110 @@
+/*MAIN STYLES */
+.main-header,
+.nav,
+.row{
+  display:flex;
+  flex-direction:column;
+}
+
+.main-header{
+  padding-top:1em;
+  align-items:center;
+}
+
+.war-logo{
+  width:80px;
+  align-self:flex-start;
+}
+
+.nav{
+  margin-top:.5em;
+  background:transparent;
+  color:white;
+}
+
+.nav a{
+ display:block;
+ color:red;
+ font-size:1em;
+ font-family:fantasy.sans-serif,serif,monospace;
+ font-weight:bold;
+ text-align:center;
+ padding:.5em;
+ text-transform: uppercase;
+}
+
+.nav a:hover{
+  color:blue:
+}
+
+
+
+/*----------------------------------------------------------------------------
+  MEDIA QUERIES
+  --------------------------------------------------------------------------------
+  */
+
+  @media (min-width:769px){
+    .main-header{
+      height:300px;
+      justify-content:space-between;
+    }
+
+    .war-logo{
+      margin-top: 2em;
+      width:150px;
+      align-self:center;
+    }
+
+    .nav{
+      margin-top:1em;
+      flex-direction:row;
+      justify-content: space-between;
+    }
+
+    .nav a{
+      border-bottom-color:transparent;
+      flex-direction: row;
+    }
+
+    .row{
+      margin-top: 3em;
+      flex-direction:row;
+      flex:1;
+    }
+  }
+
+  @media (min-width:1025px){
+    .main-header{
+      flex-direction: row;
+    }
+
+    .war-logo{
+      margin-right:auto;
+      align-self: center;
+    }
+
+    .nav {
+      margin-top: 0;
+      align-self:center;
+      flex:1;
+    }
+
+    .nav a {
+      font-size: 1.5em;
+    }
+
+    .nav li{
+      margin-right: .65em;
+      margin-left: .65em;
+    }
+
+    .row{
+      margin:3em 0 2em;
+      flex-direction:row;
+      flex-grow:3;
+      min-height: 500px;
+      align-items: stretch;
+    }
+
+  }

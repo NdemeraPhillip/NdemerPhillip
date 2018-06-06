@@ -1,0 +1,75 @@
+/*Base ELEMENT styles*/
+*{
+ box-sizing: border-box;
+}
+
+
+h1{
+  text-align: center;
+  background-image: url("../IMAGES/WAR.jpg");
+  height:300px;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+  text-transform: uppercase;
+  color:red;
+}
+
+h2{
+  text-align: center;
+  text-transform: uppercase;
+  color:red;
+}
+
+h3{
+  text-align: center;
+  text-transform: uppercase;
+  color:red;
+}
+
+body{
+  background-color: white;
+}
+
+p{
+  color:black;
+}
+
+img{
+  max-width: 100%;
+}
+/*main styles*/
+.main-header{
+  background-image: url("../IMAGES/SOCCER.jpg");
+  background-position: center;
+  background-repeat:repeat-x;
+  background-size:contain;
+  height:400px;
+}
+
+figure{
+  position: relative;
+}
+
+figcaption{
+   position: absolute;
+   width:60%;
+
+ }
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  CONTAINERS
+  ---------------------------------------------------------------------------------------
+  */
+
+  .wrapper{
+    width:100%;
+    margin: auto;
+    color:white;
+  }
+
+  .row{
+    width:100%;
+    background-color: black;
+  }
